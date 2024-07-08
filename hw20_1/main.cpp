@@ -15,6 +15,4 @@ int main() {
     student1.showInfo();
 
     return 0;
-
-
 }
