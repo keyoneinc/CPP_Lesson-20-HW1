@@ -1,6 +1,6 @@
 #include "Student.h"
 
-Student::Student(string fullName, double averageScore, string phoneNumber, string address, string& institutionName, int groupNumber)
+Student::Student(string fullName, double averageScore, string phoneNumber, string address, string institutionName, int groupNumber)
 {
 	this->fullName = fullName;
 	this->averageScore = averageScore;

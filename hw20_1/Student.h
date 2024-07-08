@@ -13,7 +13,7 @@ private:
     int groupNumber;
 
 public:
-    Student(string fullName, double averageScore, string phoneNumber, string address,string& institutionName, int groupNumber);
+    Student(const string fullName, double averageScore, string phoneNumber, string address, string institutionName, int groupNumber);
     
     string getFullName() const;
     double getAverageScore() const;

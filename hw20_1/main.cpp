@@ -2,7 +2,9 @@
 #include "Student.h"
 
 int main() {
-    Student student1("Yaroslav", 95, "+123456789", "Street, City, Zipcode", "Kharkiv NTU University", 222);
+    Student student1("Yaroslav", 95, "+123456789", "Street", "Kharkiv NTU University", 222);
+
+    Student student2();
 
     student1.showInfo();
 
